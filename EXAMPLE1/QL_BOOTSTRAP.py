@@ -150,7 +150,7 @@ for tot_episode in range(10,201,10):
 
 		    # 7. Print the status
                     print "============================================================="
-                    print "          Q Learning via Epsilon Greedy Policy"
+                    print "          Q Learning via Randomized Value Functions"
                     print "                 (Q", cols[0]/2, "is currently used)"
                     print "   Annealing:",tot_episode,", Epoch:",epoch,", Episode:",episode,", Time Step:",time_step
                     print (time.time() - start_time), "seconds"
