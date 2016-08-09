@@ -88,7 +88,7 @@ for tot_episode in range(10,201,10):
                     rows, cols = np.where(Mtable[[SelectQ], :]) # find mask position
                     
                     # 2. Select action using epsilon greedy policy 
-                    if np.random.uniform()>epsilon:
+                    if np.random.uniform()>0:
                         if Qt[0, cols[0]] > Qt[0, cols[1]]:
                             At = 0
                         elif Qt[0, cols[0]] < Qt[0, cols[1]]:
@@ -185,7 +185,6 @@ for tot_episode in range(10,201,10):
 
 
 sess.close()            
-
 
 
 
