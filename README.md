@@ -1,3 +1,3 @@
-# RL_practice
+# Reinforcement Learning Examples using TensorFlow
 
-In this repository, some examples on reinforcement learning is given by using TensorFlow. (2016/08/09)
+In this repository, some examples on reinforcement learning is given by using TensorFlow. (Aug. 9. 2016)
